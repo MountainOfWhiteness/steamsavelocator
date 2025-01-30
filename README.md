@@ -12,7 +12,7 @@ Ever wondered where your Steam game saves are hiding? This little tool helps you
 
 ## How to Use It
 
-1. Download the latest release from the [Releases section](#).
+1. Download the latest release from the [Releases section](https://github.com/MountainOfWhiteness/steamsavelocator/releases).
 2. Extract the files and run `SteamSaveLocator.exe`.
 3. Type in the Steam AppID of the game you’re looking for (you can find this on SteamDB or the game’s store page).
 4. It’ll show you all the places where your saves might be hiding.
@@ -48,6 +48,6 @@ This project is licensed under the **MIT License**. Basically, you can use it, m
 
 ## Questions or Problems?
 
-If something’s not working or you’re confused, just [open an issue](#) and I’ll try to help out.
+If something’s not working or you’re confused, just [open an issue](https://github.com/MountainOfWhiteness/steamsavelocator/issues) and I’ll try to help out.
 
 ---
