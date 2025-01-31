@@ -30,7 +30,7 @@ Ever wondered where your Steam game saves are hiding? This little tool helps you
 
 ## Why I Made This
 
-I got tired of manually searching through folders like `AppData`, `Documents`, and `Steam Cloud` every time I wanted to back up my saves or if I had problems finding the exact games. So, I made this tool to do the heavy lifting for me. Hopefully, it’ll save you some time too!
+I got tired of manually searching through folders like `AppData`, `Documents`, every time I wanted to back up my saves or if I had problems finding the exact games. So, I made this tool to do the heavy lifting for me. Hopefully, it’ll save you some time too!
 
 ---
 
