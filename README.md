@@ -1,53 +1,28 @@
-Ever wondered where your Steam game saves are hiding? This little tool helps you find them without digging through a million folders. Perfect for when you want to back up your progress, move saves to another PC, or just satisfy your curiosity.
+# Steam Save Locator
 
----
+I whipped this up because finding save files on PC can be annoyingly complicated. Some games put them in Documents, others in AppData, some in the Steam installation folder. It's a mess. This tool just scans everything and tells you exactly where they are.
 
-## What Does It Do?
+![Screenshot](screenshot.png)
 
-- **Finds Save Files**: It scans your computer for save files related to your Steam games.
-- **Works with Steam Cloud**: If your game uses Steam Cloud, it’ll show you where those saves are stored too.
-- **Super Simple**: Just type in the Steam AppID of the game, and it’ll do the rest.
+### What's new in v0.3
 
----
+I finally gave this a proper interface. It's now a standalone app with a dark theme, so no more dealing with command line windows.
 
-## How to Use It
+I also added a "confidence" system which basically just flags folders green if they are definitely save files, and red if they might just be random game data. It helps filter out the noise if you have a lot of stuff installed.
 
-1. Download the latest release from the [Releases section](https://github.com/MountainOfWhiteness/steamsavelocator/releases).
-2. Extract the files and run `SteamSaveLocator.exe`.
-3. Type in the Steam AppID of the game you’re looking for (you can find this on SteamDB or the game’s store page).
-4. It’ll show you all the places where your saves might be hiding.
+### How to use
 
-**Pro Tip**: If you’re not sure what the AppID is, just Google “[Game Name] Steam AppID” and you’ll find it.
+1. Grab the exe from the releases tab and run it. No install needed.
+2. Hit the **Scan System** button.
+3. If you want to find a specific game, just type its name in the search bar.
+4. Click **Open** on any result to jump straight to the folder.
 
----
+### Features
 
-## Screenshot
+- **Finds everything**: Checks Documents, AppData, Steam Cloud path, and game install folders.
+- **Smart Filters**: If you see too much junk, set the filter to "High Only" to see only confirmed saves.
+- **Cloud Support**: Works with Steam Cloud saves too.
 
-![Screenshot](screenshot.png)  
-*Here’s what it looks like when you run it.*
+### Issues
 
----
-
-## Why I Made This
-
-I got tired of manually searching through folders like `AppData`, `Documents`, every time I wanted to back up my saves or if I had problems finding the exact games. So, I made this tool to do the heavy lifting for me. Hopefully, it’ll save you some time too!
-
----
-
-## Contributing
-
-If you’ve got ideas to make this better or found a bug, feel free to open an issue or submit a pull request. I’m always open to improvements!
-
----
-
-## License
-
-This project is licensed under the **MIT License**. Basically, you can use it, modify it, and share it however you want. 😄
-
----
-
-## Questions or Problems?
-
-If something’s not working or you’re confused, just [open an issue](https://github.com/MountainOfWhiteness/steamsavelocator/issues) and I’ll try to help out.
-
----
+If you run into any bugs or if it misses a game, feel free to [open an issue](https://github.com/MountainOfWhiteness/steamsavelocator/issues) and I'll take a look. Matches might not be perfect for every single Blackbeard game out there, but I tried to cover the most common ones like Goldberg.
